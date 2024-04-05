@@ -107,7 +107,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>iBet</title>
-  <link href="estilo.css" rel="stylesheet">
+  <link href="css\estilo.css" rel="stylesheet">
   <body>
     <body style="background-color:#1C1D5C">
     <img id="cima" src="imagens\cima.png" style="position:absolute; top:0px; left:0px";
@@ -162,17 +162,7 @@
         <div class="number" style="--i:7;--clr:#3cb371;"><span>5000</span></div>
         <div class="number" style="--i:8;--clr:#4169e1;"><span>10000</span></div>
       </div>
-    <script >
-      let roda = document.querySelector('.roda');
-      let botao = document.querySelector('.botao');
-      let valor = Math.ceil(Math.random() * 3600);
-
-      botao.onclick = function(){
-      roda.style.transform = "rotate(" + valor + "deg)";
-      valor += Math.ceil(Math.random() * 3600);
-      }
-
-    </script>
+    <script src="js\javascript.js"></script>
   </body>
 </head>
 </html>
