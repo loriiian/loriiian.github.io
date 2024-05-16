@@ -207,3 +207,60 @@ body
             display: none;
         }
 
+
+
+
+
+
+
+
+body {
+          font-family: 'Arial', 'sans-serif';
+          font-size: 1em; 
+          font-weight: bold;
+          text-align: center;
+          background-color: #1C1D5C;
+          margin: 0; 
+          padding: 0; 
+      }
+
+      #ibelogo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 5%; 
+        height: auto; 
+      }
+
+      #logo {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 5%; 
+          height: auto; 
+      }
+
+      #moeda {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 3%;
+          height: auto;
+      }
+
+                form {
+                    position: absolute;
+                    bottom: 400px;
+                    right: 200px;
+                }
+
+                button { 
+                              height: 50px;
+                              width: 100px;
+                              position: absolute;
+                              top: 725px;
+                              right: 985px;
+                              border: 3px solid green; 
+                            }
+                            
+      @media only screen and (max-width: 40px) {
