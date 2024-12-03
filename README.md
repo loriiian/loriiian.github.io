@@ -1,1 +1,1 @@
-# loriiian.github.io
+testar o jogo em diferentes dispositivos 👍

@@ -1,0 +1,161 @@
+html {
+  background-color: rgb(1, 1, 20);
+  font-family: pixelify sans;
+  background-image: url(assets/images/EstrelasLindas.png);
+  margin: 0;
+  height: 100%;
+}
+
+body{
+  margin: 0;
+}
+
+main{
+  margin: 1%;
+}
+
+h1 {
+  color: yellow;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  text-shadow: 2px 2px rgb(199, 129, 0), -1px -1px #745900;
+}
+
+.instructions_comandos{
+  color: rgb(255, 255, 50);
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.container_credit {
+  width: 60%;
+  background-image: url(assets/images/fundo_azul.png);
+  margin: auto;
+  position: relative;
+}
+
+.tab {
+  margin-left: 50px;
+}
+
+.text_creditis {
+  text-align: left;
+  font-size: 1.5em;
+  line-height: 30px;
+}
+
+#titulo {
+  font-family: 'VT323';
+    font-weight: bold;
+    color: yellow;
+    font-size: 3em;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-shadow: 2px 2px rgb(199, 129, 0), -1px -1px #745900;
+    text-decoration: none;
+} 
+
+.text_credits{
+  font-size: 1.7em;
+}
+
+.container-titulo {
+  width: 30%;
+  margin-top: 1%;
+  margin-left: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.credits {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;    
+}
+
+.if-logo {
+  margin: 0;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.container-footer {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: rgb(7, 7, 36);
+  box-sizing: border-box; /* Por enquanto deixamos assim */
+}
+
+.logo {
+  transform: skew(10deg) rotate(-10deg);
+}
+
+.container-info-footer {
+  text-align: right;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+p a:link {
+  text-decoration: none;
+  color: white;
+}
+
+#container-info-footer-copyright {
+  width: 100%;
+  background-color: rgb(7, 7, 36);
+  text-align: center;
+  margin: 0;
+  margin-left: 0;
+  margin-bottom: 1px;
+  color: white;
+}
+
+#container-info-footer-copyright h5 {
+  margin: 0;
+}
+
+footer {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(7, 7, 36);
+  padding: 10px;
+  z-index: 999;
+}
+
+
+.menu-button {
+  font-family: pixelify sans;
+  width: 12vw;
+  height: 5vh;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  margin: 5px 0;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: color 0.3s;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.menu-button:hover {
+  color: rgb(170, 10, 10);
+  width: 13vw;
+  height: 6vh;
+}

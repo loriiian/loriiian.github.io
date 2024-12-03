@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="assets/images/caveira-icone-pixilart.png">
+        <link rel="stylesheet" href="index.css"><!--CSS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+        <title>King's Curse</title>
+    </head>
+    <!--<h1>King's Curse</h1>-->
+    <div class="container-titulo">
+        <img src="assets/images/caveira-icone-pixilart.png" alt="Icone">
+        <a id="titulo" href="index.html">King's Curse</a>
+    </div>
+
+
+
+    <div class="container-canvas">
+        <canvas id="Canvas" width="1100" height="500"></canvas>
+    </div>
+
+            <!--Tela de Game Over-->
+            <div id="gameOverScreen" style="display: none;">
+                <h1 style="color: white;">Game Over!</h1>
+                <p style="color: white;">Sua pontuação: <span id="finalScore"></span></p>
+                <button id="restartButton">Recomeçar</button>
+            </div>
+
+
+    <!----Botão de pausa
+    <div id="pauseContainer">
+        <img id="pauseButton" src="assets/images/pause.png" alt="Pausar" style="cursor: pointer;">
+    </div>
+-->
+
+<!--Menu inicial-->
+    <body>
+        <div id="menu">
+            <button id="startGameBtn" class="menu-button">Iniciar Jogo</button>
+            <button id="instructionsBtn" class="menu-button">Instruções</button>
+            <button id="creditsBtn" class="menu-button">Créditos</button>
+            <button id="optionsBtn" class="menu-button">Opções</button>
+        </div>
+        
+<!--Touchscreen-->
+<div id="mobileControls" style="display: none;">
+    <button id="jumpButton">Pular</button>
+    <button id="attackButton">Atacar</button>
+    <button id="shootButton">Atirar</button>
+    <button id="pauseButtonMobile">Pausar</button>
+</div>
+
+
+<div id="pauseMenu" style="display: none;">
+    <h2>Jogo pausado</h2>
+    <button id="resumeGameBtn">Retomar</button>
+    <button id="quitGameBtn">Sair</button>
+</div>
+
+<div id="victoryMenu" style="display: none;">
+    <h2>Parabéns! Você ganhou!</h2>
+    <button id="restartButton">Recomeçar</button>
+    <button id="quitGameBtn">Sair</button>
+</div>
+
+
+<!--Menu de opções-->
+        <div id="optionsMenu" style="display: none;">
+            <h2>Opções</h2>
+            <label for="volumeSlider" id="volumetext">Volume</label>
+            <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="1">
+            <button id="fullscreenBtn" class="menu-button">Tela Cheia</button>
+            <button id="backToMenuBtn" class="menu-button">Voltar</button>
+        <script src="js.js"></script>
+    </body>
+</html>
